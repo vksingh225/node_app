@@ -1,0 +1,25 @@
+{
+	"name": "fcc-learn-node-with-express",
+  "author": "Venkatesh Kumar Singh",
+  "description": "Implementing API with NodeJs",
+	"version": "1.0.0",
+	"dependencies": {
+    "mongoose": "5.6.5",
+    "mongodb": "3.0.0",
+		"express": "^4.14.0",
+		"body-parser": "^1.15.2",
+    "multer": "^1.4.1",
+		"cookie-parser": "^1.4.3",
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+    
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "10.15.3"
+	},
+  "keywords": [ "freecodecamp", "nodejs", "api", "microservices" ],
+  "license": "MIT"
+}
